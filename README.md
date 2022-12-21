@@ -1,5 +1,10 @@
 # ROS2-FOXY-KURULUM
 
+GEREKLİLİKLER
+
+1- Ubuntu 20.04
+
+
 LOKAL AYARLAMA
 
 UTF-8'i destekleyen bir yerel ayarınız olduğundan emin olun. Minimum bir ortamdaysanız (docker konteyneri gibi), yerel ayar; POSIX gibi minimal bir şey olabilir. 
