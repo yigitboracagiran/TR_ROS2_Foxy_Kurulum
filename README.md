@@ -73,4 +73,4 @@ DENEMELER
 
 1- “ros2 run demo_nodes_py talker” komutunu yazınız.
 
-2- Diğer komut çalışırken yeni bir terminalde “ros2 run demo_nodes_py listener” komutunu da yazdığınızda 1. terminalde talker düğümünün yayınladığı mesajları, 2. terminalde listener düğümü sayesinde görüyor olmalısınız.
+2- Diğer komut çalışırken yeni bir terminalde “ros2 run demo_nodes_py listener” komutunu yazdığınızda 1. terminalde talker düğümünün yayınladığı mesajları, 2. terminalde listener düğümü sayesinde görüyor olmalısınız.
