@@ -1,11 +1,9 @@
-# ROS2-FOXY-KURULUM
-
-GEREKLİLİKLER
+# GEREKLİLİKLER
 
 1- Ubuntu 20.04
 
 
-LOKAL AYARLAMA
+# LOKAL AYARLAMA
 
 UTF-8'i destekleyen bir yerel ayarınız olduğundan emin olun. Minimum bir ortamdaysanız (docker konteyneri gibi), yerel ayar; POSIX gibi minimal bir şey olabilir. 
 
@@ -24,7 +22,7 @@ Aşağıdaki ayarlarla bunu test ediyoruz. Ancak, farklı bir UTF-8 destekli yer
 6- “locale” komutu ile ayarlar kontrol ediliyor.
 
 
-KURULUM KAYNAKLARI
+# KURULUM KAYNAKLARI
 
 ROS2’yi apt deposunu sistemimize ekliyoruz.
 
@@ -43,7 +41,7 @@ En sonda da depomuzu kaynak listemize ekliyoruz.
 5- echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
 
-ROS2 PAKETLERİNİN KURULUMU
+# ROS2 PAKETLERİNİN KURULUMU
 
 Depoları kurduktan sonra apt depolarımızın önbelleklerini güncelliyoruz.
 
@@ -58,7 +56,7 @@ ROS2 masaüstü (ROS-RVIZ-Demos-Tutorials) kurulumu yapılacaktır.
 3- sudo apt install ros-foxy-desktop python3-argcomplete
 
 
-ORTAMIN KURULUMU
+# ORTAMIN KURULUMU
 
 1- Eğer bilgisayarınıza daha önceden kurulu ROS1 varsa .bashrc dosyasını “nano ~/.bashrc” komutu ile açıp “source /opt/ros/noetic/setup.bash” satırının başına “#” ekleyerek yorum satırına almalısınız.
 
@@ -69,7 +67,7 @@ ORTAMIN KURULUMU
 4- Ardından terminali kapatıp yeniden açmalısınız, .bashrc dosyası yenilenir.
 
 
-DENEMELER
+# DENEMELER
 
 1- “ros2 run demo_nodes_py talker” komutunu yazınız.
 
